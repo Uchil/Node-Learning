@@ -1,0 +1,21 @@
+{
+    "name": "node-learning",
+    "version": "0.1.0",
+    "private": true,
+    "repository": {
+        "type": "git"
+    },
+    "scripts": {
+        "lite": "lite-server",
+        "gulp": "gulp",
+        "start": "concurrent 'npm run gulp' 'npm run lite'"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "lite-server": "^2.1.0",
+        "concurrently": "^2.0.0"
+    },
+    "dependencies": {
+
+    }
+}
